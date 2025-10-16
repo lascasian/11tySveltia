@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/base
 section: post
 ---
 <article>
@@ -35,7 +35,7 @@ section: post
     {% generateImage image, (imageAltText or title), "90vw" %}
   {% endif %}
 
-  {{ layoutContent | safe }}
+  {{ content | safe }}
 
 </article>
 

@@ -1,5 +1,5 @@
 ---
-layout: layouts/blog.njk
+layout: layouts/blog
 title: Blog
 description: A sample Blog index listing all posts.
 date: 2017-01-01

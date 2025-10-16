@@ -1,5 +1,5 @@
 ---
-layout: layouts/contact.njk
+layout: layouts/contact
 title: Contact
 description: This is a sample meta description. If one is not present in your page/post's front matter, the default settings.description will be used instead.
 section: contact

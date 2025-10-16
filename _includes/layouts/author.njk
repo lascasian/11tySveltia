@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/base
 section: author
 permalink: "authors/{{ name | slug }}/"
 ---
@@ -9,7 +9,7 @@ permalink: "authors/{{ name | slug }}/"
   {% generateImage image, name, "90vw" %}
 {% endif %}
 
-{{ layoutContent | safe }}
+{{ content | safe }}
 
 <p>All posts by {{ name }}</p>
 

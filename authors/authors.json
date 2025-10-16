@@ -1,5 +1,5 @@
 {
-  "layout": "layouts/author.njk",
+  "layout": "layouts/author",
   "tags": [
     "author"
   ]

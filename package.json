@@ -1,7 +1,8 @@
 {
-  "name": "eleventy-sveltia-cms-starter",
+  "name": "Biblioteca Lascasiana",
   "version": "0.0.2",
-  "description": "A template for building a fast Eleventy blog with Sveltia CMS, for deployment to Netlify",
+  "type": "module",
+  "description": "A growing library of the works, sources, and legacy of Bartolomé de las Casas",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "watch": "npx @11ty/eleventy --watch",
@@ -10,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danurbanowicz/eleventy-sveltia-cms-starter"
+    "url": "https://github.com/lascasian/11tySveltia"
   },
   "author": {
-    "name": "Dan Urbanowicz",
-    "email": "dan.urbanowicz@gmail.com",
-    "url": "https://danurbanowicz.com"
+    "name": "Andrew Lars Wilson",
+    "email": "a@alw.ac",
+    "url": "https://alw.ac"
   },
   "license": "MIT",
   "bugs": {
@@ -23,14 +24,14 @@
   },
   "homepage": "https://github.com/danurbanowicz/eleventy-sveltia-cms-starter",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-img": "^4.0.2",
-    "@11ty/eleventy-navigation": "^0.3.5",
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-navigation": "^1.0.4",
+    "html-minifier": "4.0.0",
     "clean-css": "^5.3.3",
-    "html-minifier": "^4.0.0",
     "js-yaml": "^4.1.0",
-    "luxon": "^3.5.0",
+    "luxon": "^3.7.2",
     "netlify-plugin-cache": "^1.0.3",
-    "uglify-js": "^3.19.2"
+    "uglify-js": "3.19.3"
   }
 }
