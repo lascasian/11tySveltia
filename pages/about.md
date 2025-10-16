@@ -1,6 +1,6 @@
 ---
 title: About
-date: 2017-01-01T01:00
+date: 2025-10-16T01:00
 permalink: /about/index.html
 eleventyNavigation:
   key: about
