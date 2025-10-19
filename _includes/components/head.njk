@@ -2,12 +2,15 @@
   <meta charset="utf-8">
   <meta name="generator" content="{{ eleventy.generator }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/tufte.css"/>
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/3434e84155.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/tufte-css/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/tufte-css/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/tufte-css/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="/assets/tufte-css/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff" />
   <title>{{ title or settings.title }}</title>
   <meta name="description" content="{{ description or eleventyComputed.description or settings.description }}">
-  {% set css %}
-    {% include "assets/css/inline.css" %}
-  {% endset %}
-  <style>{{ css | cssmin | safe }}</style>
   {# Uncomment below if you want to include minified inline JS #}
   {# {% set js %}
     {% include "assets/js/inline.js" %}
