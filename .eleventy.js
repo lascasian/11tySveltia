@@ -101,7 +101,7 @@ export default function(eleventyConfig) {
   });
 
   // Don't process folders with static assets e.g. images
-  eleventyConfig.addPassthroughCopy("assets/img"); // don't process the image folder
+  eleventyConfig.addPassthroughCopy("assets/"); // don't process the image folder
   eleventyConfig.addPassthroughCopy("admin/"); // don't process the CMS folder
 
   // Disable 11ty dev server live reload when using CMS locally
