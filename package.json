@@ -25,7 +25,7 @@
   "homepage": "https://github.com/danurbanowicz/eleventy-sveltia-cms-starter",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
-    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-img": "^7.0.0",
     "@11ty/eleventy-navigation": "^1.0.4",
     "html-minifier": "4.0.0",
     "clean-css": "^5.3.3",
